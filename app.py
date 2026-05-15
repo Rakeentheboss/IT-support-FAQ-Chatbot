@@ -7,8 +7,8 @@ from openai import OpenAI
 
 
 
-url="https://github.com/Rakeentheboss/IT-support-FAQ-Chatbot/blob/main/tickets%20-%20tickets.csv"
-df = pd.read_csv(url)
+
+df = pd.read_csv("tickets - tickets.csv")
 
 api_key = st.secrets["OPENAI_API_KEY"]
 
