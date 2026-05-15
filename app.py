@@ -8,7 +8,7 @@ from openai import OpenAI
 
 
 
-df = pd.read_csv(r"D:\Local Disk D storage 1\Internship\FAQ chatbot\tickets - tickets.csv")
+df = pd.read_csv(df = pd.read_csv("tickets.csv"))
 
 api_key = st.secrets["OPENAI_API_KEY"]
 
